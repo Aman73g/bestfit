@@ -1,0 +1,589 @@
+body{
+    background-image: url(219.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+        
+    }
+
+#main{
+    
+    width: 100%;
+    /*padding:0 0px;
+    box-sizing: border-box;*/
+    color: white;
+    float: left;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background:#333;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #632a2a;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(187, 172, 153);
+  }
+  li {
+    float: left;
+  }
+  .logo{
+      color: 	rgb(219, 99, 30);
+      font-size: 30px;
+  }
+  .search{
+    color: 	rgb(219, 99, 30);
+      font-size: 10px;  
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family:cursive;
+        height: 4%;
+    background-color:rgb(48,167,160);
+  }
+  .active, li a:hover {
+    background-color: rgb(219, 99, 30);
+    color: white;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(219, 99, 30);
+  }
+    /* ul li{
+        
+       
+        
+       
+        
+        margin-top: 1%;
+        padding-left: 1%;
+        padding-top: 1%;
+        margin-left: 38%;
+        display: block;
+        padding: 8px;
+    } */
+    
+    #main{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(78,89,89,0.7);
+        left: 70%;
+        bottom: 154px;
+        background-size:cover;
+        
+        animation-name: anim_main;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+    }
+    
+    #my_pic{
+        position: relative;
+        width: 37%;
+        height: 33%;
+       
+        border-radius: 100px;
+       left:32%;
+    top:20px;
+    box-shadow:  10px 10px 50px 4px rgba(23,23,89,0.9);
+    }
+    #pic{
+        position: relative;
+        width: 40%;
+        height: 100%;
+       
+        border-radius: 50px;
+       left:32%;
+    top:20px;
+    box-shadow:  10px 10px 50px 4px rgba(23,23,89,0.9);  
+    }
+    #all{
+        width: 39%;
+        margin-left:70px;
+      
+    }
+    ul li:hover{
+        background-color: rgba(23,12,45,0.5);
+    }
+    #intro{
+        font-size: 320%;
+        font-family:font1;
+        text-align: center;
+       color: white;
+    }
+    #name{
+     color: rgb(48,167,160);
+        font-family:font1;
+        padding-left: 1%;
+    }
+    #job{
+        position: relative;
+        bottom: 3%;
+        height: 8%;
+        text-align: center;
+          font-family:font1;
+        text-shadow: 2px white;
+        font-size: 140%;
+      color:white;
+         font-weight: bold;
+      
+       
+    }
+    hr{
+        position: relative;
+        bottom: 4%;
+        width:80%;
+        margin: auto;
+        
+    }
+    li{
+        cursor: default;
+    }
+    #description{
+        text-align: center;
+        font-size: 110%;
+        color: white;
+        font-family:font1;
+     
+    }
+    #btn_contact{
+        width: 62%;
+        height: 7%;
+        margin-left: 19%;
+        margin-top: 5%;
+        background-color:;
+        border-radius: 40px;
+        border: 0px;
+        font-family: font1;
+        background-color:rgba(23,12,45,0.5);
+        color: white;
+    }
+    #btn_contact:hover{
+        cursor: hand;
+        background-color:deepskyblue;   
+    }
+    #main:hover{
+         background-color:rgba(20, 21, 21, 0.65);
+    }
+    
+    #row_1{width: 23pt;height: 35%;background-color: red;float: left;border-radius: 10px;box-shadow:  6px 6px 40px 4px black;}
+    #row_2{width: 23pt;height: 25%;background-color: green;float: left;margin-left: 20px;border-radius: 10px;border-radius: 10px;box-shadow:  6px 6px 40px 4px black;}
+    #row_3{width: 23pt;height: 13%;background-color: fuchsia;float: left;margin-left: 20px;border-radius: 10px;border-radius: 10px;box-shadow:  6px 6px 40px 4px black;}
+    #row_4{width: 23pt;height: 26%;background-color: maroon;float: left;margin-left: 20px;border-radius: 10px;border-radius: 10px;box-shadow:  6px 6px 40px 4px black;}
+    #row_5{width: 23pt;height: 32%;background-color: darkturquoise;float: left;margin-left: 20px;border-radius: 10px;border-radius: 10px;box-shadow:  6px 6px 40px 4px black;}
+    #graph{
+        width: 200pt;
+        margin: auto; 
+        padding-left: 8%;
+        transform: rotate(180deg);
+        position: relative;
+        top: 168pt;
+    }
+    #line{
+        width: 70%;;
+        color: aqua;
+        position:relative;
+        top: 3%;
+    }
+    #skills{
+    padding-top:44%;
+        font-family:  font1;
+    }
+    #skill_1{
+    padding-left:26%;
+    color:white;
+    font-size:140%;
+    }
+    #skill_2{
+    padding-left:4%;
+    color:white;
+    font-size:140%;
+    }
+    #skill_3{
+    padding-left:5%;
+    color:white;
+    font-size:140%;
+    }
+    #skill_4{
+    padding-left:3%;
+    color:white;
+    font-size:140%;
+    }
+    #skill_5{
+    padding-left:3%;
+    color:white;
+    font-size:140%;
+    }
+    #skill_5_2{
+        position: absolute;
+        top: 55%;
+        right: 21%;
+    }
+    #skill_1_2{
+        position: absolute;
+        top: 55%;
+        right: 66%;
+    }
+    #skill_h{
+         font-family:font1;
+        text-align: center;
+        font-size: 247%;
+        color:azure;
+        padding-top: 1%;
+    }
+    #skill_d{
+        padding-top: 13%;
+        color: white;
+        width: 66%;
+        margin: auto;
+        font-family:font1 ;
+        text-align: center;
+        font-size: 100%;
+    }
+    .contact_title{
+        font-family: serif;
+        color: white;
+        font-size: 125%;
+        padding-top: 6%;
+        padding-left: 5%;
+    }
+    .contact_value{
+    font-family: serif;
+        font-size: 95%;
+        color: white;
+        padding-bottom: 4%;
+        position: relative;
+        bottom: 1%;
+        border-bottom: 12px;
+        border-bottom-width: 3px;
+        border-bottom-color: white;
+        border-bottom-style: dotted;
+        margin-left: 5%;
+        margin-right: 37%;
+    }
+    
+    #contact_title_alone{
+         margin-top: -9%;
+    }
+    #contact_title_alone1{
+        margin-top: -9%;
+    }
+    #contact_title_alone2{
+        margin-top: -9%;
+    }
+    #contact_title_alone3{
+        margin-top: -9%;
+    }
+    #contact_value_last{
+        border: 0px;
+    }
+    #contact_me_address{
+        position: relative;
+        bottom: 15%;
+        left: 65%;
+    }
+    .img_adress{
+        display: inline;
+        width: 30px;
+    }
+    #follow{
+        padding-left: 15%;
+        font-size:115%; 
+    }
+    #contact_me_button{
+            position: relative;
+        bottom: 86px;
+        left: 52%;
+        width: 20%;
+        border: 0px;
+        font-family: serif;
+        padding: 1.5%;
+        background-color:darkorange;
+        color: white;
+    }
+    #contact_me_button:hover{
+     background-color: gold;
+    }
+    #contact_me_space{
+        height: 3%;
+    }
+    
+    
+    #bio{
+        background-color: rgba(0, 0, 0, 0.26);
+        width: 46%;
+        height: 40%;
+        color: rgba(255,255,255,1);
+        color: white;
+        font-family: font2;
+        padding-left: 2%;
+        position: relative;
+        top: 5%;
+        left: 2%;
+        border-radius: 20%;
+        animation-name: anim_about_me;
+        animation-duration: 4s;
+    }
+    #edu{
+        background-color: rgba(0, 0, 0, 0.26);
+        width: 45%;
+        height: 50%;
+        color: rgba(255,255,255,1);
+        color: white;
+        font-family: font2;
+        padding-left: 2%;
+        position: relative;
+        left: 52%;
+        top: -88.6%;
+        border-radius: 20%;
+         animation-name: anim_about_me;
+        animation-duration: 4s;
+    }
+    #hobby{
+       background-color: rgba(0, 0, 0, 0.26);
+        width: 46%;
+        height: 50%;
+        color: rgba(255,255,255,1);
+        color: white;
+        font-family: font2;
+        padding-left: 2%;
+        position: relative;
+        top: -35%;
+        left: 2%;
+        border-radius: 20%;
+         animation-name: anim_about_me;
+        animation-duration: 4s;
+    }
+    #my_pic_about_me{
+       background-color: rgba(0, 0, 0, 0.26);
+        width: 46%;
+        position: relative;
+        left: 52%;
+        bottom: 35%;
+        height: 40%;
+        color: rgba(255,255,255,1);
+        border-radius: 20%;
+         animation-name: anim_about_me;
+        animation-duration: 4s;
+    }
+    #my_pic_about_me img{
+          width: 99.6%;
+      height: 101%;
+      border: 0px;
+      border-radius: 25px;
+    }
+    #bio,#edu,#hobby p{
+        font-size: 100%;
+    }
+    .ab_me{
+        color: white;
+        text-align: center
+    }
+    
+    #about_me_img{
+        width: inherit;
+        height: inherit;
+    }
+    
+    @keyframes anim_main{
+        0%{background-color: rgba(68, 34, 39, 0.62);}
+        10%{background-color:rgba(51, 0, 51,0.6);}
+        20%{background-color:rgba(0, 26, 51,0.6);}
+        30%{background-color:rgba(0, 77, 0,0.6);}
+        40%{background-color:rgba(77, 0, 38,0.6);}
+        50%{background-color:rgba(51, 51, 0,0.6);}
+        60%{background-color: rgba(39, 18, 18, 0.7);}
+        70%{background-color: rgba(32, 29, 35, 0.59);}
+        80%{background-color: rgba(35, 0, 0, 0.59);}
+        90%{background-color: rgba(2, 23, 13, 0.59);}
+    }
+    @keyframes anim_about_me{
+        from{color: black;}
+        to{color: white;}
+    }
+    @font-face{
+        font-family:font1;
+        src:url(AlegreyaSansSC-Regular.ttf);
+    }
+    @font-face{
+        font-family:font2;
+        src:url(AlegreyaSansSC-Regular.ttf);
+    }
+    @font-face{
+        font-family:font3;
+        src:url(AdventPro-Thin.ttf);
+    }
+   /* The slider: */
+.slider{
+    max-width: 100%;
+    /* The position of the element is set relative to its original position: */
+    position: relative;
+    /* Center horizontally: */
+    margin: auto;
+    height: 600px;
+}
+/* The picture is scaled in relation to the parent element: */
+.slider .item img {
+    /* The element is resized to fill the block and maintain proportions: */
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+/* Back and forward buttons: */
+.slider .previous, .slider .next {
+    /* Adds an icon to the cursor when it is over the button: */
+    cursor: pointer;
+    /* The position of the element is set relative to the borders of the browser: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Styling the buttons themselves: */
+    color: rgb(219, 99, 30);
+    font-weight: bold;
+    font-size: 16px;
+    /* Background fading on hover: */
+    transition: 0.6s ease;
+    /* Rounding the borders: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* When you hover over the buttons, add the background of the buttons: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color:rgb(219, 99, 30);
+    color: white;
+}
+/* Slide animation: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Set and change the transparency: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* Include padding and border in total box size*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that float next to each other */
+  .column-2 {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color: rgb(219, 99, 30,0.57);
+    line-height:2;
+  }
+  .large-profile {
+    background: url('../images/large-profile.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #d67f7f4d;
+    padding: 20px;
+  } .container2 {
+    border-radius: 5px;
+    background-color: #b7b92d4d;
+    padding: 20px;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .flex-container {
+    display: flex;
+    padding-left: 120px;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
